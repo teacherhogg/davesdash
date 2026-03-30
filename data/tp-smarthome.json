@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Home Assistant at House",
+        "link": "http://100.74.120.10:8123",
+        "image": "/images/item-icons/home-assistant.svg",
+        "desc": "Smart home control",
+        "id": "ha-house",
+        "mode": "tailscale",
+        "computer": "Raspberry Pi",
+        "port": 8123
+    },
+    {
+        "ref": "ha-cabin"
+    }
+]

@@ -1,0 +1,10 @@
+# Dependencies
+node_modules
+
+# VitePress-specific ignores
+.vitepress/cache
+.vitepress/dist
+
+# Optional: Misc ignores (common in Node projects)
+*.log
+.temp

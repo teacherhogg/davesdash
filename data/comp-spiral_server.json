@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Tailscale Admin",
+    "link": "https://login.tailscale.com/admin/machines",
+    "image": "/images/item-icons/tailscale.png",
+    "desc": "Spiral Server",
+    "id": "tailscale-spiral",
+    "mode": "web",
+    "computer": "spiral-server"
+  },
+  {
+    "title": "Portainer",
+    "desc": "admin and 8**HOUSE",
+    "image": "/images/item-icons/portainer-dark.svg",
+    "link": "https://100.72.194.94:9443/",
+    "id": "portainer-spiral",
+    "mode": "tailscale",
+    "computer": "spiral-server",
+    "port": 9443
+  },
+  {
+    "title": "POJO",
+    "desc": "Power Journaling on Spiral Server",
+    "link": "http://100.72.194.96:9000",
+    "image": "/images/item-icons/bolt.png",
+    "color": "green",
+    "id": "pojo-spiral",
+    "mode": "tailscale",
+    "computer": "spiral-server",
+    "port": 9000
+  },
+  {
+    "title": "Immich",
+    "desc": "Immich App on Photo Server",
+    "image": "/images/item-icons/immich.svg",
+    "link": "http://100.72.194.94:2283",
+    "target": "newtab",
+    "id": "immich-spiral",
+    "mode": "tailscale",
+    "computer": "spiral-server",
+    "port": 2283
+  },
+  {
+    "title": "Immich Kiosk",
+    "desc": "Slideshow of Images",
+    "image": "/images/item-icons/immich-kiosk-light.svg",
+    "link": "http://100.72.194.94:3283",
+    "target": "newtab",
+    "id": "immichkiosk-spiral",
+    "mode": "tailscale",
+    "computer": "spiral-server",
+    "port": 3283
+  },
+  {
+    "title": "Home Assistant at Cabin",
+    "link": "http://100.72.194.94:8123",
+    "image": "/images/item-icons/home-assistant.svg",
+    "desc": "Smart home control",
+    "id": "ha-cabin",
+    "mode": "tailscale",
+    "computer": "spiral-server",
+    "port": 8123
+  }
+]

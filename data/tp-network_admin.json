@@ -1,0 +1,17 @@
+[
+  {
+    "ref": "npm-optiplex"
+  },
+  {
+    "title": "Telus Router",
+    "link": "http://192.168.1.254",
+    "image": "/images/item-icons/router.svg",
+    "id": "telus-router",
+    "mode": "house",
+    "computer": "router"
+  },
+  {
+    "ref": "pihole-optiplex"
+  }
+
+]

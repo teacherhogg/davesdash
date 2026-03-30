@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Tailscale Admin",
+    "link": "https://login.tailscale.com/admin/machines",
+    "image": "/images/item-icons/tailscale.png",
+    "desc": "Helix Server",
+    "id": "tailscale-helix",
+    "mode": "web",
+    "computer": "helix-server"
+  },
+  {
+    "title": "Portainer",
+    "desc": "admin and 8**HOUSE",
+    "image": "/images/item-icons/portainer-dark.svg",
+    "link": "https://100.73.51.56:9443/",
+    "target": "newtab",
+    "id": "portainer-helix",
+    "mode": "tailscale",
+    "computer": "helix-server",
+    "port": 9443
+  },
+  {
+    "title": "POJO",
+    "link": "http://100.73.51.56:9000",
+    "image": "/images/item-icons/bolt.png",
+    "color": "purple",
+    "desc": "Power Journaling on Helix Server",
+    "id": "pojo-helix",
+    "mode": "tailscale",
+    "computer": "helix-server",
+    "port": 9000
+  },
+  {
+    "title": "Immich",
+    "desc": "Immich App on Photo Server",
+    "image": "/images/item-icons/immich.svg",
+    "link": "http://100.73.51.56:2283",
+    "target": "newtab",
+    "id": "immich-helix",
+    "mode": "tailscale",
+    "computer": "helix-server",
+    "port": 2283
+  },
+  {
+    "title": "Immich Kiosk",
+    "desc": "Slideshow of Images",
+    "image": "/images/item-icons/immich-kiosk-light.svg",
+    "link": "http://100.73.51.56:3283",
+    "target": "newtab",
+    "id": "immichkiosk-helix",
+    "mode": "tailscale",
+    "computer": "helix-server",
+    "port": 3283
+  }
+]

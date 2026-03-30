@@ -1,0 +1,11 @@
+[
+  {
+    "ref": "tailscale-optiplex"
+  },
+  {
+    "ref": "tailscale-helix"
+  },
+  {
+    "ref": "tailscale-spiral"
+  }
+]

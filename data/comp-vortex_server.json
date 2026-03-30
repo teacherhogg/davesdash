@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Vortex Server",
+    "desc": "OpenMediaVault Dashboard",
+    "link": "http://192.168.1.127",
+    "image": "/images/item-icons/openmediavault.svg",
+    "id": "omv-vortex",
+    "mode": "house",
+    "computer": "vortex-server"
+  },
+  {
+    "title": "SyncThing",
+    "image": "/images/item-icons/syncthing.svg",
+    "link": "vortex-server.local:8384",
+    "desc": "Vortex-Server is SyncSpot Hub",
+    "id": "syncthing-vortex",
+    "mode": "house",
+    "computer": "vortex-server",
+    "port": 8384
+  }
+]
