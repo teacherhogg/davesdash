@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tailscale
-image: /images/item-icons/tailscale.svg
+image: /images/item-icons/tailscale.png
 ---
 
 <script setup>

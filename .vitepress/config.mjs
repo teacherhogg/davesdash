@@ -24,9 +24,10 @@ export default defineConfig({
       {
         text: 'Topics',
         items: [
-          { text: 'Homelab', link: '/topics/homelab' },
+          { text: 'Tailscale', link: '/topics/tailscale' },
           { text: 'Network Admin', link: '/topics/network_admin' },
-          { text: 'POJO', link: '/topics/pojo' }
+          { text: 'POJO', link: '/topics/pojo' },
+          { text: 'Web Services', link: '/topics/web_services' }
         ]
       }
     ],

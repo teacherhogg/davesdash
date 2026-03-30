@@ -109,7 +109,6 @@
     "desc": "Location Tracking (not used for now).",
     "image": "/images/item-icons/dawarich.png",
     "link": "http://100.109.90.65:4000",
-    "target": "newtab",
     "id": "dawarich-optiplex",
     "mode": "tailscale",
     "computer": "dell-optiplex",
@@ -118,7 +117,7 @@
   {
     "title": "Speed Tracker",
     "link": "http://100.109.90.65:8070",
-    "target": "newtab",
+    "image": "/images/item-icons/myspeed.svg",
     "id": "speedtracker-optiplex",
     "mode": "tailscale",
     "computer": "dell-optiplex",

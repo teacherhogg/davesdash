@@ -1,0 +1,18 @@
+[
+    {
+        "id": "netlify",
+        "title": "Netlify",
+        "link": "https://app.netlify.com",
+        "desc": "Web Hosting",
+        "image": "/images/item-icons/netlify.svg",
+        "mode": "web"
+    },
+    {
+        "id": "namecheap",
+        "title": "Namecheap",
+        "link": "https://namecheap.com/myaccount.login",
+        "desc": "Domain Names",
+        "image": "/images/item-icons/namecheap.svg",
+        "mode": "web"
+    }
+]
