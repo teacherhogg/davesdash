@@ -9,13 +9,13 @@
     "computer": "vortex-server"
   },
   {
-    "title": "SyncThing",
+    "title": "Syncthing",
     "image": "/images/item-icons/syncthing.svg",
-    "link": "vortex-server.local:8384",
+    "link": "http://100.72.52.37:8384/",
     "desc": "Vortex-Server is SyncSpot Hub",
     "id": "syncthing-vortex",
-    "mode": "house",
-    "computer": "vortex-server",
+    "mode": "tailscale",
+    "computer": "tailscale",
     "port": 8384
   }
 ]

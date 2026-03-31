@@ -1,4 +1,15 @@
 [
+   {
+    "title": "Syncthing",
+    "link": "http://100.72.194.96:8384/",
+    "image": "/images/item-icons/syncthing.svg",
+    "statusCheck": true,
+    "desc": "Spiral Server - SyncSpot, SyncSpot2, Media",
+    "id": "syncthing-spiral",
+    "mode": "tailscale",
+    "computer": "spiral-server",
+    "port": 8384
+  },
   {
     "title": "Tailscale Admin",
     "link": "https://login.tailscale.com/admin/machines",
@@ -12,7 +23,7 @@
     "title": "Portainer",
     "desc": "admin and 8**HOUSE",
     "image": "/images/item-icons/portainer-dark.svg",
-    "link": "https://100.72.194.94:9443/",
+    "link": "https://100.72.194.96:9443/",
     "id": "portainer-spiral",
     "mode": "tailscale",
     "computer": "spiral-server",
@@ -33,7 +44,7 @@
     "title": "Immich",
     "desc": "Immich App on Photo Server",
     "image": "/images/item-icons/immich.svg",
-    "link": "http://100.72.194.94:2283",
+    "link": "http://100.72.194.96:2283",
     "target": "newtab",
     "id": "immich-spiral",
     "mode": "tailscale",
@@ -44,7 +55,7 @@
     "title": "Immich Kiosk",
     "desc": "Slideshow of Images",
     "image": "/images/item-icons/immich-kiosk-light.svg",
-    "link": "http://100.72.194.94:3283",
+    "link": "http://100.72.194.96:3283",
     "target": "newtab",
     "id": "immichkiosk-spiral",
     "mode": "tailscale",
@@ -53,7 +64,7 @@
   },
   {
     "title": "Home Assistant at Cabin",
-    "link": "http://100.72.194.94:8123",
+    "link": "http://100.72.194.96:8123",
     "image": "/images/item-icons/home-assistant.svg",
     "desc": "Smart home control",
     "id": "ha-cabin",

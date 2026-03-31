@@ -1,0 +1,56 @@
+[
+  {
+    "text": "Network Admin",
+    "link": "/topics/network_admin",
+    "desc": "Network Admin Tools",
+    "image": "/images/item-icons/pi-hole.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "POJO",
+    "image": "/images/item-icons/bolt.png",
+    "desc": "Power Journaling",
+    "link": "/topics/pojo",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Smarthome",
+    "link": "/topics/smarthome",
+    "desc": "Smarthome Dashboard",
+    "image": "/images/item-icons/home-assistant.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Syncthing",
+    "link": "/topics/syncthing",
+    "desc": "File Synchronization",
+    "image": "/images/item-icons/syncthing.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Tailscale",
+    "link": "/topics/tailscale",
+    "desc": "Secure Network",
+    "image": "/images/item-icons/tailscale.png",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Web Services",
+    "link": "/topics/web_services",
+    "desc": "Web Services Dashboard",
+    "image": "/images/modes/web.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  }
+]

@@ -1,12 +1,11 @@
 [
   {
-    "title": "SyncThing",
-    "link": "http://localhost:8384/",
+    "title": "Syncthing",
+    "link": "http://100.109.90.65:8384/",
     "image": "/images/item-icons/syncthing.svg",
-    "statusCheck": true,
     "desc": "Dell-Optiplex is SyncSpot Hub",
     "id": "syncthing-optiplex",
-    "mode": "computer",
+    "mode": "tailscale",
     "computer": "dell-optiplex",
     "port": 8384
   },
@@ -14,7 +13,6 @@
     "title": "POJO",
     "link": "http://localhost:9000",
     "image": "/images/item-icons/bolt.png",
-    "statusCheck": true,
     "color": "blue",
     "desc": "Power Journaling on Dell Optiplex",
     "id": "pojo-optiplex",
@@ -26,7 +24,6 @@
     "title": "Portainer",
     "desc": "Docker Management",
     "link": "https://localhost:9443",
-    "statusCheck": true,
     "image": "/images/item-icons/portainer-dark.svg",
     "id": "portainer-optiplex",
     "mode": "computer",
@@ -39,7 +36,7 @@
     "image": "/images/item-icons/tailscale.png",
     "desc": "Dell Optiplex",
     "id": "tailscale-optiplex",
-    "mode": "web",
+    "mode": "computer",
     "computer": "dell-optiplex"
   },
   {
@@ -66,7 +63,6 @@
     "title": "Uptime Kuma",
     "link": "http://localhost:3001",
     "image": "/images/item-icons/uptime-kuma.svg",
-    "statusCheck": true,
     "desc": "Monitor Services",
     "id": "uptimekuma-optiplex",
     "mode": "computer",
@@ -87,7 +83,6 @@
     "desc": "Automation",
     "link": "http://localhost:5678",
     "image": "/images/item-icons/n8n.svg",
-    "statusCheck": true,
     "id": "n8n-optiplex",
     "mode": "computer",
     "computer": "dell-optiplex",

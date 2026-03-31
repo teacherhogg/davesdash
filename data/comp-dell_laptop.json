@@ -1,0 +1,21 @@
+ [
+  {
+    "title": "Syncthing",
+    "link": "http://100.109.90.65:8384/",
+    "image": "/images/item-icons/syncthing.svg",
+    "desc": "SyncSpot/DavidA SyncSpot2",
+    "id": "syncthing-dlaptop",
+    "mode": "tailscale",
+    "computer": "dell-laptop",
+    "port": 8384
+  },
+  {
+    "title": "Tailscale Admin",
+    "link": "https://login.tailscale.com/admin/machines",
+    "image": "/images/item-icons/tailscale.png",
+    "desc": "Dell Laptop Tailscale",
+    "id": "tailscale-dlaptop",
+    "mode": "computer",
+    "computer": "dell-laptop"
+  }
+]

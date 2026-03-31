@@ -1,0 +1,83 @@
+[
+  {
+    "text": "Vortex Server",
+    "desc": "OpenMediaVault NAS",
+    "link": "/computers/vortex_server",
+    "image": "/images/item-icons/openmediavault.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Dell Optiplex",
+    "desc": "Desktop",
+    "link": "/computers/dell_optiplex",
+    "image": "/images/comps/kubuntu-linux.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Helix Server",
+    "desc": "Photo Server",
+    "link": "/computers/helix_server",
+    "image": "/images/comps/ubuntu-linux.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Spiral Server",
+    "desc": "Cabin Server",
+    "link": "/computers/spiral_server",
+    "image": "/images/comps/ubuntu-linux.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Dell Laptop",
+    "desc": "Laptop",
+    "link": "/computers/dell_laptop",
+    "image": "/images/comps/windows-11.png",
+    "color": "#90EE90",
+    "borderColor": "#013220",
+    "textColor": "#000000"
+  },
+  {
+    "text": "HP Laptop",
+    "desc": "Laptop",
+    "link": "/computers/hp_laptop",
+    "image": "/images/comps/ubuntu-linux.svg",
+    "color": "#90EE90",
+    "borderColor": "#013220",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Macbook Pro",
+    "desc": "Laptop",
+    "link": "/computers/macbook_pro",
+    "image": "/images/comps/kubuntu-linux.svg",
+    "color": "#90EE90",
+    "borderColor": "#013220",
+    "textColor": "#000000"
+  },
+  {
+    "text": "iMac Big",
+    "desc": "Photo Display",
+    "link": "/computers/imac_big",
+    "image": "/images/comps/xubuntu-linux.svg",
+    "color": "#DE73FF",
+    "borderColor": "#311432",
+    "textColor": "#FFFFFF"
+  },
+  {
+    "text": "iMac Small",
+    "desc": "Info Display",
+    "link": "/computers/imac_small",
+    "image": "/images/comps/xubuntu-linux.svg",
+    "color": "#DE73FF",
+    "borderColor": "#311432",
+    "textColor": "#FFFFFF"
+  }
+]

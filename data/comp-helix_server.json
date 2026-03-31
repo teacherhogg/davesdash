@@ -1,4 +1,15 @@
 [
+   {
+    "title": "Syncthing",
+    "link": "http://100.73.51.56:8384/",
+    "image": "/images/item-icons/syncthing.svg",
+    "statusCheck": true,
+    "desc": "Helix-Server SyncSpot2",
+    "id": "syncthing-helix",
+    "mode": "tailscale",
+    "computer": "helix-server",
+    "port": 8384
+  },
   {
     "title": "Tailscale Admin",
     "link": "https://login.tailscale.com/admin/machines",
