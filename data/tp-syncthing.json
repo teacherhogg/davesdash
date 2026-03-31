@@ -10,5 +10,17 @@
   },
   {
     "ref": "syncthing-vortex"
+  },
+  {
+    "ref": "syncthing-dlaptop"
+  },
+  {
+    "ref": "syncthing-hplaptop"
+  },
+  {
+    "ref": "syncthing-macbookpro"
+  },
+  {
+    "ref": "syncthing-imacsmall"
   }
 ]

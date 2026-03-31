@@ -15,7 +15,7 @@
     "desc": "Vortex-Server is SyncSpot Hub",
     "id": "syncthing-vortex",
     "mode": "tailscale",
-    "computer": "tailscale",
+    "computer": "vortex-server",
     "port": 8384
   }
 ]
