@@ -2,10 +2,10 @@
   {
     "title": "Vortex Server",
     "desc": "OpenMediaVault Dashboard",
-    "link": "http://192.168.1.127",
+    "link": "http://100.72.52.37",
     "image": "/images/item-icons/openmediavault.svg",
     "id": "omv-vortex",
-    "mode": "house",
+    "mode": "tailscale",
     "computer": "vortex-server"
   },
   {
