@@ -4,7 +4,7 @@
       v-for="card in resolvedCards"
       :key="card.id || card.ref || card.title"
       :href="card.link"
-      target="_blank"
+      :target="card.target === 'same-tab' ? '_self' : '_blank'"
       rel="noopener noreferrer"
       class="card"
     >
@@ -21,17 +21,28 @@
       <div class="card-body">
         <p v-if="card.desc" class="card-desc">{{ card.desc }}</p>
         <div v-if="card.computer || card.port" class="card-meta">
-          <VPBadge v-if="card.computer" type="tip">{{ card.computer }}</VPBadge>
+          <button
+            v-if="card.computer"
+            type="button"
+            class="computer-btn"
+            @click.stop.prevent="openSpecs(card.computer)"
+          >
+            <VPBadge type="tip">{{ card.computer }}</VPBadge>
+          </button>
           <VPBadge v-if="card.port" type="info">port {{ card.port }}</VPBadge>
         </div>
       </div>
     </a>
+
+    <ComputerSpecsModal :is-open="isSpecsOpen" :spec="selectedSpec" @close="closeSpecs" />
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import VPBadge from 'vitepress/dist/client/theme-default/components/VPBadge.vue'
+import ComputerSpecsModal from './ComputerSpecsModal.vue'
+import computerSpecs from '../../../data/computer-specs.json'
 
 const VALID_MODES = ['house', 'cabin', 'tailscale', 'computer', 'web']
 
@@ -60,6 +71,29 @@ const props = defineProps({
 const resolvedCards = computed(() => {
   return props.cards.map((card) => resolveCard(card))
 })
+
+const isSpecsOpen = ref(false)
+const selectedComputer = ref('')
+
+const specsByComputer = computed(() => {
+  return computerSpecs.reduce((acc, spec) => {
+    acc[spec.computer] = spec
+    return acc
+  }, {})
+})
+
+const selectedSpec = computed(() => {
+  return specsByComputer.value[selectedComputer.value] ?? null
+})
+
+function openSpecs(computer) {
+  selectedComputer.value = computer
+  isSpecsOpen.value = true
+}
+
+function closeSpecs() {
+  isSpecsOpen.value = false
+}
 
 function buildCardRegistry(modules) {
   const registry = {}
@@ -219,5 +253,12 @@ function resolveCard(card, seenRefs = new Set()) {
 .card-meta :deep(.VPBadge) {
   margin-left: 0;
   transform: none;
+}
+
+.computer-btn {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
 }
 </style>
