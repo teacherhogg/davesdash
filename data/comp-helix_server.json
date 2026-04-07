@@ -56,7 +56,7 @@
     "title": "Immich Kiosk",
     "desc": "Slideshow of Images",
     "image": "/images/item-icons/immich-kiosk-light.svg",
-    "link": "http://100.73.51.56:3283",
+    "link": "http://100.73.51.56:3283?weather=rotate",
     "target": "newtab",
     "id": "immichkiosk-helix",
     "mode": "tailscale",
