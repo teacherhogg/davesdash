@@ -9,7 +9,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Topics', link: '/topics' },
-      { text: 'Computers', link: '/computers' }
+      { text: 'Computers', link: '/computers' },
+      { text: 'Location', link: 'http://100.109.90.65:8090/login' },
+      { text: 'Slideshow', link: 'http://100.73.51.56:3283' }
     ],
 
     sidebar: [
