@@ -48,6 +48,22 @@
     "tailscaleIp": "100.73.51.56"
   },
   {
+    "computer": "twist-server",
+    "model": "Intel Twin Lake N150",
+    "date": "2014",
+    "ram": "72 GB",
+    "ssd": "500 GB",
+    "hdd": "1000 GB + 80 GB",
+    "cpu": "Intel Xeon E5-2673",
+    "cpuSpeed": "2.4 GHz",
+    "cores": 12,
+    "type": "Server",
+    "description": "AI server.",
+    "usb": "",
+    "lanIp": "192.168.1.98",
+    "tailscaleIp": "100.76.237.97"
+  },
+  {
     "computer": "vortex-server",
     "model": "Dell Optiplex 7050 MT refurbished",
     "date": "2025",
@@ -107,6 +123,21 @@
     "description": "Ubuntu laptop used for sync and admin access.",
     "lanIp": "192.168.1.??",
     "tailscaleIp": "100.120.91.80"
+  },
+  {
+    "computer": "cabin-laptop",
+    "model": "Dell Inspiron 7559",
+    "date": "2016",
+    "ram": "8 GB",
+    "ssd": "500 GB",
+    "hdd": "1000 GB",
+    "cpu": "i7-6700HQ",
+    "cpuSpeed": "2.6 GHz",
+    "cores": 8,
+    "type": "Laptop",
+    "description": "Cabin Laptop.",
+    "lanIp": "192.168.1.??",
+    "tailscaleIp": "100.81.8.56"
   },
   {
     "computer": "imac-big",

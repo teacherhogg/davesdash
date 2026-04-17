@@ -27,6 +27,15 @@
     "textColor": "#000000"
   },
   {
+    "text": "Twist Server",
+    "desc": "AI Server",
+    "link": "/computers/twist_server",
+    "image": "/images/item-icons/claude-ai.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
     "text": "Spiral Server",
     "desc": "Cabin Server",
     "link": "/computers/spiral_server",

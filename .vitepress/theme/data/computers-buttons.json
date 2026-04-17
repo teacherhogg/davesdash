@@ -27,6 +27,15 @@
     "textColor": "#000000"
   },
   {
+    "text": "Twist Server",
+    "desc": "AI Server",
+    "link": "/computers/twist_server",
+    "image": "/images/comps/fedora-linux.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
     "text": "Spiral Server",
     "desc": "Cabin Server",
     "link": "/computers/spiral_server",
@@ -58,6 +67,15 @@
     "desc": "Laptop",
     "link": "/computers/macbook_pro",
     "image": "/images/comps/kubuntu-linux.svg",
+    "color": "#90EE90",
+    "borderColor": "#013220",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Cabin Laptop",
+    "desc": "Laptop",
+    "link": "/computers/cabin_laptop",
+    "image": "/images/comps/fedora-linux.svg",
     "color": "#90EE90",
     "borderColor": "#013220",
     "textColor": "#000000"

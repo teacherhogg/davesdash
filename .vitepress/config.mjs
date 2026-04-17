@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'Vortex Server', link: '/computers/vortex_server' },
           { text: 'Dell Optiplex', link: '/computers/dell_optiplex' },
           { text: 'Helix Server', link: '/computers/helix_server' },
+          { text: 'Twist Server', link: '/computers/twist_server' },
           { text: 'Spiral Server', link: '/computers/spiral_server' }
         ]
       },
@@ -29,7 +30,8 @@ export default defineConfig({
         items: [
           { text: 'Macbook Pro', link: '/computers/macbook_pro' },
           { text: 'HP Laptop', link: '/computers/hp_laptop' },
-          { text: 'Dell Laptop', link: '/computers/dell_laptop' }
+          { text: 'Dell Laptop', link: '/computers/dell_laptop' },
+          { text: 'Cabin Laptop', link: '/computers/cabin_laptop' }
         ]
       },
       {
