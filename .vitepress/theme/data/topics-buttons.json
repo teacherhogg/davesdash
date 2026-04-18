@@ -9,6 +9,15 @@
     "textColor": "#000000"
   },
   {
+    "text": "Photos",
+    "link": "/topics/photos",
+    "desc": "Photo Management",
+    "image": "/images/item-icons/immich.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
     "text": "POJO",
     "image": "/images/item-icons/bolt.png",
     "desc": "Power Journaling",

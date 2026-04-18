@@ -44,6 +44,7 @@ export default defineConfig({
       {
         text: 'Topics',
         items: [
+          { text: 'Photos', link: '/topics/photos' },
           { text: 'Tailscale', link: '/topics/tailscale' },
           { text: 'Syncthing', link: '/topics/syncthing' },
           { text: 'Smart Home', link: '/topics/smarthome' },

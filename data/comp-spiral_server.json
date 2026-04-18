@@ -20,6 +20,16 @@
     "computer": "spiral-server"
   },
   {
+    "title": "Web Console",
+    "desc": "Cockpit System Management",
+    "link": "https://100.72.194.96:9090",
+    "image": "/images/comps/redhat-linux.svg",
+    "id": "fedora-cockpit-spiral",
+    "mode": "tailscale",
+    "computer": "spiral-server",
+    "port": 9090
+  },
+  {
     "title": "Portainer",
     "desc": "admin and 8**HOUSE",
     "image": "/images/item-icons/portainer-dark.svg",

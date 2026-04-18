@@ -20,6 +20,16 @@
     "computer": "helix-server"
   },
   {
+    "title": "Web Console",
+    "desc": "Cockpit System Management",
+    "link": "https://100.73.51.56:9090",
+    "image": "/images/comps/redhat-linux.svg",
+    "id": "fedora-cockpit-helix",
+    "mode": "tailscale",
+    "computer": "helix-server",
+    "port": 9090
+  },
+  {
     "title": "Portainer",
     "desc": "admin and 8**HOUSE",
     "image": "/images/item-icons/portainer-dark.svg",

@@ -31,6 +31,16 @@
     "port": 9443
   },
   {
+    "title": "Web Console",
+    "desc": "Cockpit System Management",
+    "link": "https://100.109.90.65:9090",
+    "image": "/images/comps/redhat-linux.svg",
+    "id": "fedora-cockpit-optiplex",
+    "mode": "tailscale",
+    "computer": "dell-optiplex",
+    "port": 9090
+  },
+  {
     "title": "Tailscale Admin",
     "link": "https://login.tailscale.com/admin/machines",
     "image": "/images/item-icons/tailscale.png",
