@@ -43,6 +43,17 @@
     "port": 5550
   },
   {
+    "title": "Ideas Vault",
+    "link": "http://100.109.90.65:5552",
+    "image": "/images/item-icons/nginx.svg",
+    "color": "blue",
+    "desc": "Ideas Vault on Dell Optiplex",
+    "id": "ideas-vault-optiplex",
+    "mode": "tailscale",
+    "computer": "dell-optiplex",
+    "port": 5552
+  },
+  {
     "title": "Portainer",
     "desc": "Docker Management",
     "link": "https://100.109.90.65:9443",
