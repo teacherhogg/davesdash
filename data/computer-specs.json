@@ -49,7 +49,7 @@
   },
   {
     "computer": "twist-server",
-    "model": "Intel Twin Lake N150",
+    "model": "HP Z440 Workstation refurbished. Product Number F1M45UT#ABA",
     "date": "2014",
     "ram": "72 GB",
     "ssd": "500 GB",
@@ -58,7 +58,7 @@
     "cpuSpeed": "2.4 GHz",
     "cores": 12,
     "type": "Server",
-    "description": "AI server.",
+    "description": "AI server. ",
     "usb": "",
     "lanIp": "192.168.1.98",
     "tailscaleIp": "100.76.237.97"

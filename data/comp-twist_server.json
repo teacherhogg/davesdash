@@ -50,6 +50,39 @@
     "port": 5678
   },
   {
+    "title": "Agent Vault",
+    "link": "http://100.76.237.97:5551",
+    "image": "/images/item-icons/nginx.svg",
+    "color": "blue",
+    "desc": "Agent Vault",
+    "id": "agent-vault",
+    "mode": "tailscale",
+    "computer": "twist-server",
+    "port": 5551
+  },
+  {
+    "title": "Health Vault",
+    "link": "http://100.76.237.97:5550",
+    "image": "/images/item-icons/nginx.svg",
+    "color": "blue",
+    "desc": "Health Vault",
+    "id": "health-vault",
+    "mode": "tailscale",
+    "computer": "twist-server",
+    "port": 5550
+  },
+  {
+    "title": "Ideas Vault",
+    "link": "http://100.76.237.97:5552",
+    "image": "/images/item-icons/nginx.svg",
+    "color": "blue",
+    "desc": "Ideas Vault",
+    "id": "ideas-vault",
+    "mode": "tailscale",
+    "computer": "twist-server",
+    "port": 5552
+  },
+  {
     "title": "Speed Tracker",
     "link": "http://100.76.237.97:8070",
     "image": "/images/item-icons/myspeed.svg",

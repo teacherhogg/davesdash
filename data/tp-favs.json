@@ -10,5 +10,14 @@
     },
     {
         "ref": "ha-house"
+    },
+    {
+        "ref": "agent-vault"
+    },
+    {
+        "ref": "health-vault"
+    },
+    {
+        "ref": "ideas-vault"
     }
 ]
