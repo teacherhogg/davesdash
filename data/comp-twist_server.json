@@ -41,13 +41,23 @@
   },
   {
     "title": "n8n",
-    "desc": "Automation - youknow CAPITAL F",
-    "link": "http://100.76.237.97:5678",
+    "desc": "Automation - teacher hogg@g.c and youknow CAPITAL F",
+    "link": "http://localhost:5678",
     "image": "/images/item-icons/n8n.svg",
     "id": "n8n-twist",
-    "mode": "tailscale",
+    "mode": "computer",
     "computer": "twist-server",
     "port": 5678
+  },
+  {
+    "title": "n8n-wife",
+    "desc": "Automation - david w hogg@y.ca and youknow CAPITAL F",
+    "link": "http://localhost:5679",
+    "image": "/images/item-icons/n8n.svg",
+    "id": "n8n-wife-twist",
+    "mode": "computer",
+    "computer": "twist-server",
+    "port": 5679
   },
   {
     "title": "Agent Vault",
