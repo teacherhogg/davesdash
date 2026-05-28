@@ -18,6 +18,15 @@
     "textColor": "#000000"
   },
   {
+    "text": "Mira Vaults",
+    "link": "/topics/miravaults",
+    "desc": "Web versions of Obsidian Vaults",
+    "image": "/images/item-icons/miraprompt.png",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
     "text": "POJO",
     "image": "/images/item-icons/bolt.png",
     "desc": "Power Journaling",
