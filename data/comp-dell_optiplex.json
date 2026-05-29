@@ -25,11 +25,22 @@
     "link": "http://100.109.90.65:4040",
     "image": "/images/item-icons/bolt.png",
     "color": "blue",
-    "desc": "Power AI on Dell Optiplex",
+    "desc": "POJO AI on Dell Optiplex",
     "id": "pojo-ai",
     "mode": "tailscale",
     "computer": "dell-optiplex",
     "port": 4040
+  },
+  {
+    "title": "POJO AI ",
+    "link": "http://100.109.90.65:4041",
+    "image": "/images/item-icons/bolt.png",
+    "color": "blue",
+    "desc": "POJO AI Dashboard",
+    "id": "pojo-dash",
+    "mode": "tailscale",
+    "computer": "dell-optiplex",
+    "port": 4041
   },
   {
     "title": "Portainer",
