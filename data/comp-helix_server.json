@@ -50,27 +50,5 @@
     "mode": "tailscale",
     "computer": "helix-server",
     "port": 9000
-  },
-  {
-    "title": "Immich",
-    "desc": "Immich App on Photo Server",
-    "image": "/images/item-icons/immich.svg",
-    "link": "http://100.73.51.56:2283",
-    "target": "newtab",
-    "id": "immich-helix",
-    "mode": "tailscale",
-    "computer": "helix-server",
-    "port": 2283
-  },
-  {
-    "title": "Immich Kiosk",
-    "desc": "Slideshow of Images",
-    "image": "/images/item-icons/immich-kiosk-light.svg",
-    "link": "http://100.73.51.56:3283?weather=rotate",
-    "target": "newtab",
-    "id": "immichkiosk-helix",
-    "mode": "tailscale",
-    "computer": "helix-server",
-    "port": 3283
   }
 ]
