@@ -149,5 +149,14 @@
     "mode": "tailscale",
     "computer": "dell-optiplex",
     "port": 8070
+  },
+  {
+    "title": "Bespoke Listings",
+    "link": "http://100.109.90.65:3330",
+    "image": "/images/item-icons/AboveAverageHome.png",
+    "id": "bespoke-listings-optiplex",
+    "mode": "tailscale",
+    "computer": "dell-optiplex",
+    "port": 3330
   }
 ]
