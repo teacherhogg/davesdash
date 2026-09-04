@@ -181,12 +181,12 @@
   },
   {
     "title": "Get Rich Millions V2",
-    "link": "http://100.109.90.65:3010",
+    "link": "http://100.109.90.65:3080",
     "image": "/images/item-icons/grmv2.png",
     "id": "get-rich-millions-v2-optiplex",
     "desc": "Budgeting Software",
     "mode": "tailscale",
     "computer": "dell-optiplex",
-    "port": 3010
+    "port": 3080
   }
 ]
