@@ -50,5 +50,16 @@
     "mode": "tailscale",
     "computer": "helix-server",
     "port": 9000
+  },
+  {
+    "title": "Fiscal Crystal Ball",
+    "link": "http://100.73.51.56:9010",
+    "image": "/images/item-icons/fiscal-crystalball.png",
+    "color": "purple",
+    "desc": "What if Retirement Scenarios",
+    "id": "fiscal-crystal-ball-helix",
+    "mode": "tailscale",
+    "computer": "helix-server",
+    "port": 9010
   }
 ]

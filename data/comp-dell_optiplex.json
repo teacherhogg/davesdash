@@ -158,5 +158,35 @@
     "mode": "tailscale",
     "computer": "dell-optiplex",
     "port": 3330
+  },
+  {
+    "title": "Portfolius",
+    "link": "http://100.109.90.65:3900",
+    "image": "/images/item-icons/portfolius.png",
+    "id": "portfolius-optiplex",
+    "desc":"Portfolio Management",
+    "mode": "tailscale",
+    "computer": "dell-optiplex",
+    "port": 3900
+  },
+  {
+    "title": "Momentus",
+    "link": "http://100.109.90.65:4001",
+    "image": "/images/item-icons/momentus.png",
+    "id": "momentus-optiplex",
+    "desc": "Dual Momentum Portfolio",
+    "mode": "tailscale",
+    "computer": "dell-optiplex",
+    "port": 4001
+  },
+  {
+    "title": "Get Rich Millions V2",
+    "link": "http://100.109.90.65:3010",
+    "image": "/images/item-icons/grmv2.png",
+    "id": "get-rich-millions-v2-optiplex",
+    "desc": "Budgeting Software",
+    "mode": "tailscale",
+    "computer": "dell-optiplex",
+    "port": 3010
   }
 ]
