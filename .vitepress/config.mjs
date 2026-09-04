@@ -51,7 +51,8 @@ export default defineConfig({
           { text: 'Smart Home', link: '/topics/smarthome' },
           { text: 'Network Admin', link: '/topics/network_admin' },
           { text: 'POJO', link: '/topics/pojo' },
-          { text: 'Web Services', link: '/topics/web_services' }
+          { text: 'Web Services', link: '/topics/web_services' },
+          { text: 'Finances', link: '/topics/finances' }
         ]
       }
     ],

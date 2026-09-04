@@ -70,5 +70,23 @@
     "color": "#ffffff",
     "borderColor": "#4f46e5",
     "textColor": "#000000"
+  },
+  {
+    "text": "Web Services",
+    "link": "/topics/web_services",
+    "desc": "Web Services Dashboard",
+    "image": "/images/modes/web.svg",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
+  },
+  {
+    "text": "Finances",
+    "link": "/topics/finances",
+    "desc": "Finances Dashboard",
+    "image": "/images/item-icons/getrichmillions-icon.png",
+    "color": "#ffffff",
+    "borderColor": "#4f46e5",
+    "textColor": "#000000"
   }
 ]
